@@ -32,7 +32,7 @@ public class StudentMapDemo {
     public static void updateStudentScore(int id,double newScore){
         Student student=repository.findById(id);
         if (student==null) {
-            System.out.println("khong tim thay id "+id);
+            System.out.println("Không tìm thấy sinh viên có ID: "+id);
             return;
         }
 
