@@ -45,7 +45,7 @@ public class StudentMapDemo {
             return;
         }
 
-        System.out.println("xoa thanh cong");
+        System.out.println("Xóa sinh viên thành công");
         System.out.println("so sinh vien con lai: "+repository.count());
     }
 }
