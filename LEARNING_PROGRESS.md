@@ -92,6 +92,19 @@
 - Mục tiêu: biểu diễn trạng thái bằng enum, ngày nhập học bằng LocalDate và học phí bằng BigDecimal.
 - Bài tập: mở rộng Student bằng getter/setter và giá trị mặc định; tạo StudentDetailsDemo để kiểm tra trạng thái, ngày và phép tính học phí.
 
+### Buổi 10 — Git cơ bản
+
+- Trạng thái: Hoàn thành phần Git cơ bản ngày 2026-11-08.
+- Nội dung: init, .gitignore, status, diff, staging, commit, log, branch, switch và merge fast-forward.
+- Đã xác nhận qua ảnh terminal: các commit 75e79f3, b5562cc và f89c7af; master và feature/student/student-search cùng trỏ tới f89c7af; working tree sạch sau merge.
+- Hiểu bài: học viên giải thích đúng commit lưu bản trong staging tại thời điểm git add, thay đổi sau đó vẫn nằm trong working tree.
+- Chưa thực hành: remote/push, merge conflict và khôi phục thay đổi; sẽ bổ sung khi cần.
+
+### Buổi 11 — Maven
+
+- Trạng thái: Chưa bắt đầu.
+- Mục tiêu: hiểu pom.xml, dependency và cấu trúc dự án Maven; build dự án bằng Maven. Sau khi hoàn thành sẽ đánh giá 5 buổi hoàn thành gần nhất (6, 7, 8, 10, 11), vì Buổi 9 tạm gác.
+
 ## Những điểm cần ôn lại
 
 Điều chỉnh lộ trình ngày 2026-11-06: chuyển sang Git → Maven → SQL → HTTP/REST → Spring Boot. Java Core còn thiếu được bổ sung trong thực hành. Giữ đánh giá sau mỗi 5 buổi hoàn thành; buổi tạm gác không tính là hoàn thành.
